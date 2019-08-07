@@ -11,7 +11,7 @@ object Main {
         x.drop(4).split(delimiter).map(_.toInt).sum
       }
       case _ => {
-        numbers.split("[," + System.lineSeparator + "]").map(_.toInt).sum
+        numbers.split(s"[,${System.lineSeparator()}]").map(_.toInt).sum
       }
     }
   }
