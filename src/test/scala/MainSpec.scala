@@ -1,4 +1,3 @@
-import collection.mutable.Stack
 import org.scalatest._
 
 class MainSpec extends WordSpec with Matchers {
@@ -46,6 +45,11 @@ class MainSpec extends WordSpec with Matchers {
       }
       "return the sum of 4,5,6,7 when called with \\\\~\\n4~5~6~7" in {
         Main.add("\\\\~\n4~5~6~7") shouldBe 22
+      }
+    }
+    "called with a negative value" should {
+      "throw a NegativeNumberNotAllowedException when called with -1,-1" in {
+        an [NegativeNumberNotAllowedException] should be thrownBy Main.add("-1,-1")
       }
     }
   }
