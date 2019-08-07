@@ -2,3 +2,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mThe add function[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  when called with an empty string[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when called with a string of numbers separated by commas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 1,2,3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 3,4,5[0m[0m

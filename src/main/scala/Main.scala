@@ -4,6 +4,11 @@ object Main {
   }
 
   def add(numbers: String): Int = {
-    0
+    numbers match {
+      case "" => 0
+      case _ => {
+        numbers.split(",").map(_.toInt).sum
+      }
+    }
   }
 }
