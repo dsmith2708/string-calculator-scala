@@ -12,6 +12,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 3,5,7 when called with "3\n5\n7"[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 4,6,8,12 when called with "4\n6\n8\n12"[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  when called with a string of an unknown quantity of numbers separated by both , and \n[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 3,4,5 when called with 3,4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 3,4,5 when called with 3,4\n5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 5,7,1,4,5 when called with 5,7\n1,4\n5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when called with a string which begins with specifying a delimiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 1,2,3,4 when called with \\@\n1@2@3@4[0m[0m
