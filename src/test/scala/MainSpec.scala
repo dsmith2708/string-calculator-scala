@@ -20,6 +20,14 @@ class MainSpec extends WordSpec with Matchers {
       "return the sum of 1,2,3,4,5,6" in {
         Main.add("1,2,3,4,5,6") shouldBe 21
       }
+      "return the sum of 5,3,7,9,11" in {
+        Main.add("5,3,7,9,11") shouldBe 35
+      }
+    }
+    "called with a string of 3 numbers separated by newlines" should {
+      "return the sum of 3,5,7 when called with \"3\\n5\\n7\"" in {
+        Main.add("3\n5\n7") shouldBe 15
+      }
     }
   }
 }

@@ -7,3 +7,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 3,4,5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  when called with a string of an unknown amount of numbers separated by commas[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 1,2,3,4,5,6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 5,3,7,9,11[0m[0m
