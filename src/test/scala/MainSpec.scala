@@ -40,5 +40,10 @@ class MainSpec extends WordSpec with Matchers {
         Main.add("5,7\n1,4\n5") shouldBe 22
       }
     }
+    "called with a string which begins with specifying a delimiter" should {
+      "return the sum of 1,2,3,4 when called with \\\\@\\n1@2@3@4" in {
+        Main.add("\\\\@\n1@2@3@4") shouldBe 10
+      }
+    }
   }
 }
