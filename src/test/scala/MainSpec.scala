@@ -44,6 +44,9 @@ class MainSpec extends WordSpec with Matchers {
       "return the sum of 1,2,3,4 when called with \\\\@\\n1@2@3@4" in {
         Main.add("\\\\@\n1@2@3@4") shouldBe 10
       }
+      "return the sum of 4,5,6,7 when called with \\\\*\\n4*5*6*7" in {
+        Main.add("\\\\~\n4~5~6~7") shouldBe 22
+      }
     }
   }
 }

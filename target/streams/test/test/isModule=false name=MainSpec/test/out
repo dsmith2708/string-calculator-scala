@@ -16,3 +16,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 5,7,1,4,5 when called with 5,7\n1,4\n5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  when called with a string which begins with specifying a delimiter[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 1,2,3,4 when called with \\@\n1@2@3@4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return the sum of 4,5,6,7 when called with \\*\n4*5*6*7[0m[0m
