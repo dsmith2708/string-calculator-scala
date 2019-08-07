@@ -31,7 +31,14 @@ class MainSpec extends WordSpec with Matchers {
       "return the sum of 4,6,8,12 when called with \"4\\n6\\n8\\n12\"" in {
         Main.add("4\n6\n8\n12") shouldBe 30
       }
-
+    }
+    "called with a string of an unknown quantity of numbers separated by both , and \\n" should {
+      "return the sum of 3,4,5 when called with 3,4\\n5" in {
+        Main.add("3,4\n5") shouldBe 12
+      }
+      "return the sum of 5,7,1,4,5 when called with 5,7\\n1,4\\n5" in {
+        Main.add("5,7\n1,4\n5") shouldBe 22
+      }
     }
   }
 }
