@@ -4,7 +4,7 @@
 		module="string-calculator-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190807101631"
+		publication="20190807134548"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

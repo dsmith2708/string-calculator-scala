@@ -48,8 +48,11 @@ class MainSpec extends WordSpec with Matchers {
       }
     }
     "called with a negative value" should {
-      "throw a NegativeNumberNotAllowedException when called with -1,-1" in {
-        an [NegativeNumberNotAllowedException] should be thrownBy Main.add("-1,-1")
+      "throw a NegativeNumberNotAllowedException when called with \\\\~\\n-1~5~6~7" in {
+        an [NegativeNumberNotAllowedException] should be thrownBy Main.add("\\\\~\n-1~5~6~7")
+      }
+      "throw a NegativeNumberNotAllowedException when called with 1,2,-3,4" in {
+        an [NegativeNumberNotAllowedException] should be thrownBy Main.add("1,2,-3,4")
       }
     }
   }
