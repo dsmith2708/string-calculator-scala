@@ -28,6 +28,10 @@ class MainSpec extends WordSpec with Matchers {
       "return the sum of 3,5,7 when called with \"3\\n5\\n7\"" in {
         Main.add("3\n5\n7") shouldBe 15
       }
+      "return the sum of 4,6,8,12 when called with \"4\\n6\\n8\\n12\"" in {
+        Main.add("4\n6\n8\n12") shouldBe 30
+      }
+
     }
   }
 }
